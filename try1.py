@@ -14,6 +14,8 @@ print("a few near the end:")
 print("\n\nlooping through a slice:")
 
 
+print("\n\n-------------------------------------")
+print(" --- copying ---")
 # 'copy' a list using assignment
 # (remember, this is actually a pointer to the same memory, not a copy of the data)
 print("\n\n'copying' a list using assignment:")
