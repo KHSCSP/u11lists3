@@ -27,10 +27,17 @@ For this problem, write a program that determines if
 
 print("\n\n---- part 3, Finding an A ----")
 '''
-In this problem, you are given a single string s 
+In this problem, input a single string s 
 that is guaranteed to contain the letter a.
 You should output the suffix of s that begins with 
 the first occurrence of the letter a.
+Example in: 'banana'
+Example out: 'anana'
+
+Example in: 'Oklahoma'
+Example out: 'ahoma'
+
+Hints: .index() to find the 'a', then slice
  '''
 
 
@@ -41,7 +48,12 @@ print("\n\n---- part 4, Autori ----")
 '''
 Great scientific discoveries are often named 
 by the last names of scientists that made them. 
-For example, the most popular asymmetric cryptography system, RSA was discovered by Rivest, Shamir and Adleman. Another notable example is the Knuth-Morris-Pratt algorithm, named by Knuth, Morris and Pratt.
+For example, the most popular asymmetric 
+cryptography system, RSA was discovered by 
+Rivest, Shamir and Adleman. 
+Another notable example is the 
+Knuth-Morris-Pratt algorithm, 
+named by Knuth, Morris and Pratt.
 Scientific papers reference earlier works a lot 
 and it’s not uncommon for one document to use 
 two different naming conventions: 
@@ -51,6 +63,10 @@ We find mixing two conventions in one paper to be
 aesthetically unpleasing and would like you to write
 a program that will transform long variations 
 into short.
+Example in: "Knuth-Morris-Pratt"
+Example out: "KMP"
+
+Hints: .split(), then get first letter of each item
 '''
 
 
