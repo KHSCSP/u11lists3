@@ -3,8 +3,7 @@ print("\n---- part 1, 20 items ----")
 # 2) print the message "the first 3 items are:" then use slicing to print the first 3 items
 # 3) print the message "3 items near the middle are:" then use slicing to display those items
 # 4) print the message "the last 3 items are:" then display those items
-print("the first 3 items are:")
-print("the last 3 items are:")
+
 
 
 
@@ -17,8 +16,14 @@ the line number is the last four digits.
 Traditionally, the prefix number 555 has been used
 to provide directory information and assistance.
 For this problem, write a program that determines if
- a supplied seven-digit telephone number should be routed to the directory information operator, that is, the prefix number is 555.
+a supplied seven-digit telephone number should be 
+routed to the directory information operator, that is,
+the prefix number is 555.
 '''
+# test strings
+s = "555-1234"
+# s = "123-4567"
+# s = "532-2259"
 
 
 
@@ -39,6 +44,9 @@ Example out: 'ahoma'
 
 Hints: .index() to find the 'a', then slice
  '''
+# test strings
+s = "banana"
+# s = "Oklahoma"
 
 
 
@@ -66,7 +74,9 @@ into short.
 Example in: "Knuth-Morris-Pratt"
 Example out: "KMP"
 
-Hints: .split(), then get first letter of each item
+Hints: use .split(), then get first letter of each item
 '''
-
-
+# test strings
+s = "Knuth-Morris-Pratt"
+# s = "Rivest-Shamir-Adleman"
+# s = "Mirko-Slavko"
