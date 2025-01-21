@@ -66,7 +66,7 @@ s2 = "Goodbye blue Monday"
 print("\n\n")
 # given a list of accounts and login dates
 # make a list of accounts that 
-# have not been logged into this year
+# have not been logged into in 2024
 accounts = ["oakemployee, 5/26/2021", 
          "walrusschedule, 11/2/2024",
          "containspikes, 4/12/2023", 
