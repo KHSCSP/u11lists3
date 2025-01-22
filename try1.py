@@ -89,7 +89,7 @@ accounts = ["oakemployee, 5/26/2021",
 
 
 # ----- summary ----
-print("\n----- summary -----")
+print("\n----- summary of removing items -----")
 print("to remove unwanted items from a list:")
 print("\tmake a new list")
 print("\tloop through the original list")
