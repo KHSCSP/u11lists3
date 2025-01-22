@@ -79,3 +79,22 @@ accounts = ["oakemployee, 5/26/2021",
          "snoozeguitar, 11/27/2024",
          "rareseamstress, 8/17/2024"]
 
+
+
+
+
+
+
+
+
+
+# ----- summary ----
+print("\n----- summary -----")
+print("to remove unwanted items from a list:")
+print("\tmake a new list")
+print("\tloop through the original list")
+print("\tonly append to the new list if you want that item")
+print("\tnote: .remove() only removes the *first* occurance of an item")
+
+print("\nto remove unwanted items from a string")
+print("\tuse .replace() which replaces all occurances")
