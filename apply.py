@@ -11,14 +11,17 @@ print("\n\n---- part 2, FYI ----")
 '''
 In the United States of America, telephone numbers 
 within an area code consist of seven digits. 
+
 The prefix number is the first three digits and 
 the line number is the last four digits. 
 Traditionally, the prefix number 555 has been used
 to provide directory information and assistance.
+
 For this problem, write a program that determines if
-a supplied seven-digit telephone number should be 
-routed to the directory information operator, that is,
-the prefix number is 555.
+ a supplied seven-digit telephone number 
+ should be routed to the 
+ directory information operator, 
+ that is, the prefix number is 555.
 '''
 # test strings
 s = "555-1234"

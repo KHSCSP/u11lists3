@@ -45,11 +45,11 @@ print("this copies each item into a new list")
 
 print("\n\n-------------------------------------")
 print(" --- tuples ---")
-# ask for 3 numbers, create a tuple (r,g,b)
-# calculate the average of the values
-# loop through and print
-# try to change an item using its index
-# change the tuple
+# create a tuple (r,g,b)
+# calculate the average of the values (indexed)
+# loop through and print (iterable)
+# try to change an item using its index (immutable)
+# *do* change the tuple
 
 
 
