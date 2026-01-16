@@ -87,7 +87,7 @@ accounts = ["oakemployee, 5/26/2021",
 
 
 
-
+# --- (depricated??)
 # ----- summary ----
 print("\n----- summary of removing items -----")
 print("to remove unwanted items from a list:")
