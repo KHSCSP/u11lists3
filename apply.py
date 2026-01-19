@@ -50,6 +50,7 @@ Hints: .index() to find the 'a', then slice
 # test strings
 s = "banana"
 # s = "Oklahoma"
+# s = "polar bear"
 
 
 
